@@ -1,0 +1,11 @@
+$success: rgb(0, 223, 0);
+$info: rgb(0, 255, 225);
+$danger: orange;
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.bg-Antoni {
+	background-color: var(--bs-Antoni);
+}
+.col-wrapper {display: flex !important;
+align-items: center;
+justify-content: center; }
